@@ -8,7 +8,7 @@ setup(name='nettcp',
       author='Timo Schmid',
       author_email='tschmid@ernw.de',
       url='https://www.insinuator.net/?p=7513',
-      packages=['nettcp'],
+      packages=setuptools.find_packages(where='.',exclude=()),
       scripts=[
         'scripts/decode-nmf.py',
         'scripts/decode-wcfbin.py',
